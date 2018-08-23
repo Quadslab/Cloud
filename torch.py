@@ -7,7 +7,7 @@ import torch.optim as optim
 class NET(nn.Module):
   def __init__(self):
     super(NET, self).__init__()
-  	self.lin1 = nn.Linear(10, 10)
+    self.lin1 = nn.Linear(10, 10)
     self.lin2 = nn.Linear(10, 10)
   
   def forward(self, x):
